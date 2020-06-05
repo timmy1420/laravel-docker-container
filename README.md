@@ -25,7 +25,7 @@
 <h4 align="center" style="color:#7d58c2">Commands to run:</h4>
 
 <ul>
-    <li>cp .env.example .env</li>
+    <li>cp env-example .env</li>
     <li>composer-compose up -d</li>
 </ul>
 
