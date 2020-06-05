@@ -325,7 +325,7 @@ POSTGRES_ENTRYPOINT_INITDB=./postgres/docker-entrypoint-initdb.d
 
 # Accepted values: mariadb - mysql
 
-PMA_DB_ENGINE=mysql
+PMA_DB_ENGINE=mariadb
 
 # Credentials/Port:
 
