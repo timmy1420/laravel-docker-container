@@ -26,7 +26,7 @@
 
 <ul>
     <li>cp env-example .env</li>
-    <li>composer-compose up -d</li>
+    <li>docker-compose up -d</li>
 </ul>
 
 ---
