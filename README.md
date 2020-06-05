@@ -23,10 +23,11 @@
 </p>
 
 <h4 align="center" style="color:#7d58c2">Commands to run:</h4>
-<li>
-    <ul>cp .env.example .env</ul>
-    <ul>composer-compose up -d</ul>
-</li>
+
+<ul>
+    <li>cp .env.example .env</li>
+    <li>composer-compose up -d</li>
+</ul>
 
 ---
 
