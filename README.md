@@ -3,6 +3,11 @@
 </p>
 
 ---
+<p align="center">
+    Ready to create a docker stack directly into <a href="https://www.portainer.io/">portainer.io</a>. You can also specify the ports directly so this will overwrite the .env file.
+</p>
+
+---
 
 <p align="center"><b>Full PHP development environment based on Docker.</b></p>
 
@@ -11,8 +16,6 @@
 <p align="center">
     <a href="http://zalt.me"><img src="http://forthebadge.com/images/badges/built-by-developers.svg" alt="forthebadge" width="240"></a>
 </p>
-
-
 
 <h4 align="center" style="color:#7d58c2">Use Docker First - Then Learn About It Later!</h4>
 
