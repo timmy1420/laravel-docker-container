@@ -35,6 +35,9 @@ COMPOSE_PATH_SEPARATOR=:
 # Define the prefix of container names. This is useful if you have multiple projects that use laradock to have separate containers per project.
 COMPOSE_PROJECT_NAME=laradock
 
+# Define a custom nginx container name. This will also be referenced to the domain name
+NGINX_CONTAINER_NAME=laradock_nginx
+
 ### PHP Version ###########################################
 
 # Select a PHP version of the Workspace and PHP-FPM containers (Does not apply to HHVM).

@@ -301,6 +301,8 @@ services:
 
 ### NGINX Server #########################################
     nginx:
+      container_name: ${NGINX_CONTAINER_NAME}
+      hostname: ${NGINX_CONTAINER_NAME}
       build:
         context: ./nginx
         args:
