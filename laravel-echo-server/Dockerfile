@@ -17,6 +17,7 @@ RUN npm install
 
 # Bundle app source
 COPY laravel-echo-server.json /usr/src/app/laravel-echo-server.json
+COPY .env /usr/src/app/.env
 
 EXPOSE 3000
 CMD [ "npm", "start", "--force" ]
