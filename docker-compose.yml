@@ -441,8 +441,8 @@ services:
         - ./data/certbot/certs/:/var/certs
         - ./certbot/letsencrypt/:/var/www/letsencrypt
       environment:
-        - CN="fake.domain.com"
-        - EMAIL="fake.email@gmail.com"
+        - CN="${LETS_ENCRYPT_CN}"
+        - EMAIL="${LETS_ENCRYPT_EMAIL}"
       networks:
         - frontend
 
