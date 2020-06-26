@@ -441,8 +441,8 @@ services:
         - ./data/certbot/certs/:/var/certs
         - ./certbot/letsencrypt/:/var/www/letsencrypt
       environment:
-        - CN="${LETS_ENCRYPT_CN}"
-        - EMAIL="${LETS_ENCRYPT_EMAIL}"
+        - CN=${LETS_ENCRYPT_CN}
+        - EMAIL=${LETS_ENCRYPT_EMAIL}
       networks:
         - frontend
 
