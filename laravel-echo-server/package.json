@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
-    "laravel-echo-server-whisper-subscribe": "^1.5.6"
+    "laravel-echo-server-whisper-subscribe": "^1.5.7"
   },
   "scripts": {
     "start": "laravel-echo-server start"
