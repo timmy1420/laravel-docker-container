@@ -1,2 +1,3 @@
 LARAVEL_ECHO_SERVER_REDIS_HOST=laradock_redis_1 # Redis host
 LARAVEL_ECHO_SERVER_AUTH_HOST=http://localhost
+LARAVEL_ECHO_SERVER_PROTO=http
